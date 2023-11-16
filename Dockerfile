@@ -2,7 +2,7 @@ FROM node:lts as base
 ENV NPM_CONFIG_LOGLEVEL=warn
 ENV NPM_CONFIG_COLOR=false
 WORKDIR /app
-COPY . ./
+COPY . .
 RUN npm install
 RUN npm run build
 
