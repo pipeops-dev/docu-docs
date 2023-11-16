@@ -1,17 +1,20 @@
-FROM node:lts as base
-ENV NPM_CONFIG_LOGLEVEL=warn
-ENV NPM_CONFIG_COLOR=false
-WORKDIR /app
-COPY . .
+FROM node:16 AS build
+WORKDIR /usr/src/app
+COPY package*.json ./
 RUN npm install
+COPY . .
 RUN npm run build
 
-FROM nginx:stable-alpine
-COPY nginx.conf /etc/nginx/conf.d/configfile.template
-ENV PORT 3000
-ENV HOST 0.0.0.0
-WORKDIR /home/node/app
-RUN sh -c "envsubst '\$PORT'  < /etc/nginx/conf.d/configfile.template > /etc/nginx/conf.d/default.conf"
-COPY --from=base /app/build /usr/share/nginx/html
+# Deployment step
+
+FROM busybox:1.35 as deploy
+
+RUN adduser -D static
+USER static
+WORKDIR /home/static
+
+COPY --from=build /usr/src/app/build/ ./
+
 EXPOSE 3000
-CMD ["nginx", "-g", "daemon off;"]
+
+CMD ["busybox", "httpd", "-f", "-v", "-p", "3000"]
