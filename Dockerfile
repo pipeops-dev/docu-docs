@@ -3,8 +3,8 @@ ENV NPM_CONFIG_LOGLEVEL=warn
 ENV NPM_CONFIG_COLOR=false
 WORKDIR /app
 COPY . ./
-RUN yarn install
-RUN yarn build
+RUN npm install
+RUN npm run build
 
 FROM nginx:stable-alpine
 COPY nginx.conf /etc/nginx/conf.d/configfile.template
