@@ -7,7 +7,7 @@ sidebar_position: 1
 We are excited to announce a major upgrade to our documentation platform! We have migrated from Strappi to Docusaurus, a modern and user-friendly documentation framework. This change brings a host of new features, improved usability, and enhanced performance. Below is a summary of the key changes and enhancements made during this migration.
 
 ## Version: 1.0.0
-### Release Date: [Date]
+### Release Date: October 23, 2023
 
 ### Added
 - **New Documentation Framework**: Migrated from Strappi to Docusaurus, providing a more intuitive and responsive user interface.
