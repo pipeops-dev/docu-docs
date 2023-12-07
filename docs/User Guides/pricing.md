@@ -4,7 +4,7 @@ slug: pricing
 
 # Platform Pricing Plans
 
-Our platform offers flexible pricing plans to cater to the diverse needs of developers, startups, and enterprises. You can choose the plan that best fits your requirements and enjoy your deployment on your preferred cloud provider with enhanced cost optimization and no-code capabilities.
+Our platform offers flexible pricing plans to cater to the diverse needs of developers, startups, and enterprises. You can readily choose the plan that best fits your requirements and enjoy your deployment on your preferred cloud provider with enhanced cost optimization and no-code capabilities.
 
 ## Developer Plan - $4.99/month, $47.39/year
 
