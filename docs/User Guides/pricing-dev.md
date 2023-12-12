@@ -1,8 +1,8 @@
 ---
-slug: pricing
+slug: developer-pricing-plan
 ---
 
-# Platform Pricing Plans
+# Developer Pricing Plans
 
 Our platform offers flexible pricing plans to cater to the diverse needs of developers, startups, and enterprises. You can readily choose the plan that best fits your requirements and enjoy your deployment on your preferred cloud provider with enhanced cost optimization and no-code capabilities.
 
