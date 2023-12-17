@@ -64,6 +64,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
+      colorMode: {
+        defaultMode: 'dark',
+      },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'PipeOps',
