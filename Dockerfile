@@ -23,7 +23,7 @@ RUN npm ci --only=production
 # Copy necessary files from the "builder" stage
 EXPOSE 5000
 COPY --from=build /opt/app/build ./build
-COPY --from=build /opt/app/docusaurus.config.ts .
+COPY --from=build /opt/app/docusaurus.config.js .
 
 # Define the command to run the application
 CMD ["npm", "run", "serve"]
