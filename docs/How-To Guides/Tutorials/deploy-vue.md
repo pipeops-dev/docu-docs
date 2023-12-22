@@ -7,6 +7,7 @@ authors:
     url: https://github.com/JoelMarcey
     image_url: https://github.com/JoelMarcey.png
 tags: [deployment, guide, reactjs]
+sidebar_position: 2
 ---
 
 # How to deploy a vuejs application | PipeOps
