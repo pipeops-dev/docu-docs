@@ -8,6 +8,13 @@ slug: project-deployment
 
 Deploying your application on our platform is easy and straightforward. Before you embark on this ensure you've completed the prerequisite steps by [creating and configuring your server](cluster-provisioning.md) and connecting your repository. If you haven't connected your repository yet, don't worry; we'll guide you through it.
 
+:::info
+
+Our sample project for deployment contains a **Dockerfile**
+
+:::
+
+
 ## Connect to Your Repo
 
 If you haven't already connected your repository, follow the steps in [Step 3 - Connect a Repository](connect-repo.md) to ensure your repo is linked to your account.
