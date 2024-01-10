@@ -30,18 +30,20 @@ In some cases, your containers might need to specifically need to be accessed on
 
 3. Enter the desired port number for your project.
 
-4. Select the desired protocol from the available options (e.g., HTTP, HTTPS, TCP).
+4. Select the desired protocol from the available options (e.g., UDP, TCP).
 
-5. Save your changes.
+5. Toggle AUTO HTTPS to choose your https settings, and PUBLIC to choose whether you want your application url public or not.
+
+6. Save your changes.
 
     ![Port Field](https://pub-30c11acc143348fcae20835653c5514d.r2.dev//12/18/env_networking_9b8518c151.png)
 
 ## Step 4: Modifying Environment Variables
 
-1. Under the "Networking" tab, scroll down to find the section related to environment variables.
+1. Under the **Environment Variables** tab, scroll down to find the section related to environment variables.
 
-2. Click on the <code>Add Env +</code> button to add more "Custom Environment Variables".
+2. Click on the <code>Bulk Edit</code> or <code>Add</code> button to add more custom environment variables in bulk or one at a time.
 
 3. Here, you can add, edit, or remove environment variables as needed. Each variable should be entered in the format: key in the first input box, value in the second input box.
 
-    ![Environment Variables Section](https://pub-30c11acc143348fcae20835653c5514d.r2.dev//12/18/env_modify_env_d834508362.png)
+    ![Environment Variables Section](https://pub-30c11acc143348fcae20835653c5514d.r2.dev//12/19/env_env_new_dev_679eb82aa0.png)
