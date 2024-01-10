@@ -39,7 +39,7 @@ Encountering issues? Check our [Troubleshooting Guide](/docs/category/troublesho
 
 ## Community and Support
 
-Join our community to connect with other PipeOps users, ask questions, and share your experiences. If you need direct assistance, our support team is here to help. Visit our [Community](https://pipeops.io) and [Support](https://pipeops.io) pages for more information.
+Join our community to connect with other PipeOps users, ask questions, and share your experiences. If you need direct assistance, our support team is here to help. Visit our [Community and Support](./support-cs.md) pages for more information.
 
 Thank you for choosing PipeOps. Let's streamline your deployment process together!
 
