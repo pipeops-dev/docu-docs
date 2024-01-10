@@ -4,27 +4,34 @@ slug: configure-domain-names
 title: Configure Domain Names
 ---
 
-# Configuring Domain Names 
-# Welcome your visitors to a personalized, branded experience
+# Elevating Your Project's Online Presence
 
-Enhance your project's identity by assigning a custom domain. A custom domain allows you to utilize a domain name that reflects your brand, rather than a generic URL provided by PipeOps. This helps convey to your visitors that they have reached the correct destination and fosters trust in your brand.
+Enhance the visitor experience with a personalized touch by assigning a custom domain to your project. A custom domain enables you to use a domain name tailored to your brand, distinguishing it from generic URLs provided by PipeOps. This not only ensures your visitors recognize they are at the correct destination but also instills trust in your brand.
+
+![Dashboard](https://pub-30c11acc143348fcae20835653c5514d.r2.dev//12/19/domain_1_cda333da8b.webp)
 
 ### Default Domain
 
-By default, every newly created Project will automatically receive its own subdomain assigned to Production Deployments, ending in antqube.io. You can find it below your Project's name on the Project list.
+Upon project creation, each project is automatically given its exclusive subdomain dedicated to Production Deployments, culminating in antqube.io. Locate this default domain just below your project's name on the project list.
 
-This default Domain is provided free of charge forever and is auto-generated for your project. You have the option to keep it as the main way for visitors to access your application or choose to remove it in the future.
+![Default Domain Name](https://pub-30c11acc143348fcae20835653c5514d.r2.dev//12/19/domain_2_9dac8f78c1.png)
 
-You can also edit the default domain name to suit your preferences.
+This default domain is automatically generated for your project. You have the flexibility to maintain it as the primary means for visitors to access your application permanently or for a specified period before considering its removal in the future.
+
+Additionally, you can customize the default domain name according to your preferences.
+
+![Custom Domain Name](https://pub-30c11acc143348fcae20835653c5514d.r2.dev//12/19/domain_4_7d941f7fca.webp)
 
 ### Custom Domain
 
-To use a custom domain name instead of the default subdomain provided by PipeOps, follow these steps:
+To utilize a custom domain name instead of the default PipeOps subdomain, follow these steps:
 
-1. Go to the "Settings" tab of your project in the PipeOps dashboard.
-2. Navigate to the "General Settings" section.
-3. Follow the prompts to add your desired custom domain name.
+1. Navigate to the "Settings" tab of your project on the PipeOps dashboard.
+2. Access the "General Settings" section.
+3. Follow the provided prompts to seamlessly integrate your preferred custom domain name.
 
-If you don't already own a custom domain, be sure to purchase one first.
+By configuring your domain in this manner, you ensure a highly personalized and branded experience for your visitors.
 
-By configuring your own domain, you can provide a more personalized and branded experience for your visitors.
+If you haven't acquired a custom domain yet, ensure its purchase before proceeding.
+
+![Custom Domain Name 2](https://pub-30c11acc143348fcae20835653c5514d.r2.dev//12/19/domain_4_7d941f7fca.webp)
