@@ -14,8 +14,10 @@ RUN npm install && \
 
 # Stage 2: Create the production image
 FROM $NODE_IMAGE AS prod
+
 # Set the working directory in the container to /opt/app
 WORKDIR /opt/app
+
 # Set environment variable
 ENV NODE_ENV=$ENV
 # Copy package.json and any lockfiles to the working directory.
