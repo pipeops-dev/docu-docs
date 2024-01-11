@@ -26,8 +26,10 @@ COPY package.json package-lock.json ./
 
 # Run CI for production
 RUN npm ci --only=production
-# Copy necessary files from the "builder" stage
+
 EXPOSE 3000
+
+# Copy necessary files from the "builder" stage
 COPY --from=build /opt/app/build ./build
 COPY --from=build /opt/app/docusaurus.config.js .
 
