@@ -6,6 +6,7 @@ FROM $NODE_IMAGE AS build
 WORKDIR /opt/app
 # Copy all to the working directory.
 COPY . .
+
 # Run a npm install and build
 RUN npm install && \
     npm run build
