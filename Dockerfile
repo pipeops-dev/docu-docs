@@ -23,6 +23,7 @@ ENV NODE_ENV=$ENV
 
 # Copy package.json and any lockfiles to the working directory.
 COPY package.json package-lock.json ./
+
 # Run CI for production
 RUN npm ci --only=production
 # Copy necessary files from the "builder" stage
