@@ -47,7 +47,7 @@ In this section, you will select your project framework, and the associated buil
 
 ### Step 3: Deploy Your React Application
 
-1. Click deploy.
+1. Click on deploy.
 2. Monitor the logs on the build logs section. After a successful build, click on the "View project" button to view your successfully deployed application.
 
 ![7.png](https://pub-30c11acc143348fcae20835653c5514d.r2.dev//12/react_project_buildlogs_8209d9216c.png)
