@@ -28,30 +28,29 @@ In this section, we will walk through deploying a project as a developer, using 
 
 ### Step 2: Configure Your Project
 
+:::note
+
+In this section, you will select your project framework, and the associated build type. For example, if your project is a VueJs project, you select the VueJs framework for your project.
+
+:::
+
 1. Your project has been created, and your summary dashboard is shown to you. It contains your project name and environment, server, project repository, project source and cost. Leave as default and click proceed.
 
 ![5.png](https://pub-30c11acc143348fcae20835653c5514d.r2.dev//12/5_f1a1c0a30b.png)
 
-1. Your project build settings dashboard is now shown to you. In the build settings > framework dropdown, select ReactJs
-2. Your build method dropdown is automatically set to 'NodeJs (Static frontend) Recommended'. If it is not, please select it as your build framework.
-3. Enter your custom application build command. Use the default if your application builds with 
+2. Your project build settings dashboard is now shown to you. In the build settings > framework dropdown, select ReactJs
+3. Your build method dropdown is automatically set to 'Nixpack Recommended'. If it is not, please select it as your build framework.
+4. If applicable, enter your application's life cycle release command and environment variables where applicable.
+5. Review your configuration settings.
 
-```bash
-npm run build
-```
-
-1. Enter your custom build path. Leave as default if your application uses a “/build” build path.
-2. If applicable, enter your application's life cycle release command.
-3. Review your configuration settings.
-
-![6.png](https://pub-30c11acc143348fcae20835653c5514d.r2.dev//12/6_6d68ca61ff.png)
+![6.png](https://pub-30c11acc143348fcae20835653c5514d.r2.dev//12/react_project_settings_0eeff980ac.png)
 
 ### Step 3: Deploy Your React Application
 
 1. Click deploy.
 2. Monitor the logs on the build logs section. After a successful build, click on the "View project" button to view your successfully deployed application.
 
-![7.png](https://pub-30c11acc143348fcae20835653c5514d.r2.dev//12/7_3ff463dd77.png)
+![7.png](https://pub-30c11acc143348fcae20835653c5514d.r2.dev//12/react_project_buildlogs_8209d9216c.png)
 
 ### Step 4: Celebrate Your Swift Deployment!
 
