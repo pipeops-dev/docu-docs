@@ -54,7 +54,7 @@ In this section, you will select your project framework, and the associated buil
 
 ### Step 4: Celebrate Your Swift Deployment!
 
-Congratulations! You have successfully deployed your React application using PipeOps. Your app is now live and accessible to your users worldwide.
+Congratulations! You have successfully deployed your React application using PipeOps. Your app is now live and accessible to your users.
 
 ![8.png](https://pub-30c11acc143348fcae20835653c5514d.r2.dev//12/8_101262a786.png)
 
